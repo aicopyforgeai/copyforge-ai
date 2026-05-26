@@ -3,7 +3,7 @@ services:
     name: copyforge-api
     runtime: node
     plan: free
-    branch: master
+    branch: main
     rootDir: backend
     buildCommand: npm install
     startCommand: node server.js
